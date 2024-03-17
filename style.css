@@ -1,7 +1,11 @@
-* {
+*, body {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    background-image: url('img/wallpaper.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
 }
 
 .memory-game {
@@ -27,7 +31,7 @@
     padding: 20px;
     position: absolute;
     border-radius: 5px;
-    background: #1C7CCC;
+    background: hsl(194, 50%, 77%);
 }
 
 
